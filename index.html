@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>VIGILATING</title>
+</head>
+
+<body>
+    <div class="background">
+        <div class="content">
+
+            <form class="row g-3" id="form">
+                <div class="col-auto" id="watch">
+                    <label for="staticEmail2" class="visually-hidden">WATCHING</label>
+                </div>
+                <div class="col-auto" id="name">
+                    <label for="floatingInput">NAME_</label>
+                    <input type="name" class="form-control" id="floatingInput" placeholder="type ur NAME n press ENTER">
+                </div>
+
+            </form>
+            <a  id="btn" class="btn">CONFIRM_IDENTITY</a>
+        </div>
+    </div>
+
+</body>
+<script >
+    var form=document.getElementById("form")
+form.addEventListener('submit',function(event){
+    event.preventDefault()
+    var username=document.getElementById('floatingInput').value.toUpperCase();
+    var button=document.getElementById('btn');
+    if (username=="PIYUSH" || username=="PIYUSH KD" || username=="PIYUSH KANT DASH" || username=="PIYUSH K D" ){
+        button.href="first.html"
+    }
+    else{
+        alert("Sorry, only opens for one Person")
+    }
+})
+</script>
+
+</html>

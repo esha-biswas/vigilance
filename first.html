@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="first.css">
+    <title>MESSAGE_FOR_U, SIR</title>
+</head>
+
+<body>
+    <div class="background">
+        <div class="content">
+            <h1 id="h1">To My Batman,</h1>
+            <p>My dear batman. i know you're out there, fighting to open this shitty webpage.</p>
+            <button data-bs-toggle="modal" id="b" class="btn btn-dark " data-bs-target="#exampleModal">
+                <img src="25.png" alt="batman" id="im" class="d-inline-block align-text-top">
+            </button>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header" style="background-color: transparent;">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Warning...</h1>
+                    </div>
+                    <div class="modal-body1" style="padding-bottom: 11px;">
+                        Content will be very much unrelated till this part.
+                    </div>
+                    <div class="modal-footer" style="background-color: transparent;">
+                        <a type="button" id="but" href="response.html" class="btn btn-primary">Proceed</a>
+                        <a type="button" id="bt" style="font-size: 25px; cursor: pointer;
+    text-decoration: none;" class="btn btn-primary">Pause</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("b").addEventListener("click", function () {
+            document.getElementById("exampleModal").style.display = "flex";
+        })
+        document.getElementById("bt").addEventListener("click",function(){
+            document.getElementById("exampleModal").style.display = "none";
+        })
+    </script>
+</body>
+
+</html>

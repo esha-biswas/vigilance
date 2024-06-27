@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+.caveat {
+    font-family: "Caveat";
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.amatic-sc-regular {
+    font-family: "Amatic SC";
+    font-weight: 700;
+    font-style: normal;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    /* font-family: 'Pacifico', cursive; */
+}
+
+.background {
+    background-image: url('4.jpg'), url('16.jpg'), url('3.jpg'), url("6.jpg"), url('13.jpg'), url("8.jpg"), url('18.jpg'), url('15.jpg'), url('17.jpg'), url('14.jpg'), url('10.jpg'), url('20.jpg'), url('12.jpg'), url('11.jpg'), url('7.jpg');
+    background-size: 250px;
+    height: 100%;
+    background-color: black;
+    background-position: -5% 0%, 18% 0%, -5% 100%, -5% 50%, 18% 100%, 40% 0%, 40% 100%, 40% 45%, 62% 100%, 62% 0%, 62% 35%, 85% 0%, 85% 100%, 85% 50%, 105% -10%;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 10px;
+    color: #d1cbd0;
+}
+
+#h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: "Amatic SC";
+    font-weight: 700;
+    text-align: left;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-family: "Caveat";
+
+}
+
+#im {
+    padding-left: 30px;
+    opacity: 0.5;
+}
+
+#exampleModal {
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-family: "Caveat";
+
+}
+
+#but {
+
+    padding: 14px;
+    font-size: 25px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+#b {
+    padding: 15px 30px;
+    color: #d1cbd0;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+
+#im:hover {
+    /* background-color:transparent; */
+    opacity: 1;
+
+}
